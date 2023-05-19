@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="{% static '/css/style.css' %}">
     <link rel="stylesheet" href="https://fonts.google.com/specimen/Sintony?query=Sintony">
+    <script src="{% static '/js/script.js' %}" defer></script>
     <title>{{ title }}</title>
 </head>
 <body>
@@ -14,10 +15,10 @@
             <button class="name-button"><img src="{% static '/image/Frame 5logo.png' %}" alt="Кортынка"></button>
         </div>
         <div class="for-buttons">
+            <button class="button cataloge">Cataloge</button>
+            <button class="button basket">Basket</button>
             <button class="button">knopka</button>
-            <button class="button">knopka</button>
-            <button class="button">knopka</button>
-            <button class="button">knopka</button>
+            <button class="button aboutus">About us</button>
         </div>
     </header>
 
@@ -57,9 +58,9 @@
                 <path d="M21 24.5C21.9625 24.5 22.7865 24.1573 23.4719 23.4719C24.1573 22.7865 24.5 21.9625 24.5 21C24.5 20.0375 24.1573 19.2135 23.4719 18.5281C22.7865 17.8427 21.9625 17.5 21 17.5C20.0375 17.5 19.2135 17.8427 18.5281 18.5281C17.8427 19.2135 17.5 20.0375 17.5 21C17.5 21.9625 17.8427 22.7865 18.5281 23.4719C19.2135 24.1573 20.0375 24.5 21 24.5ZM14 31.5H28V30.4937C28 29.7937 27.8104 29.1521 27.4312 28.5687C27.0521 27.9854 26.5271 27.5479 25.8562 27.2562C25.0979 26.9354 24.3177 26.6875 23.5156 26.5125C22.7135 26.3375 21.875 26.25 21 26.25C20.125 26.25 19.2865 26.3375 18.4844 26.5125C17.6823 26.6875 16.9021 26.9354 16.1437 27.2562C15.4729 27.5479 14.9479 27.9854 14.5687 28.5687C14.1896 29.1521 14 29.7937 14 30.4937V31.5ZM32.375 38.5H9.625C8.925 38.5 8.3125 38.2375 7.7875 37.7125C7.2625 37.1875 7 36.575 7 35.875V6.125C7 5.425 7.2625 4.8125 7.7875 4.2875C8.3125 3.7625 8.925 3.5 9.625 3.5H24.5437L35 13.9562V35.875C35 36.575 34.7375 37.1875 34.2125 37.7125C33.6875 38.2375 33.075 38.5 32.375 38.5ZM32.375 35.875V15.1375L23.3625 6.125H9.625V35.875H32.375Z" fill="black"/>
             </svg>
             <div class="numbers">
-                <p>+380 (96) 723 15 74</p>
-                <p>+380 (68) 723 15 74</p>
-                <p>+380 (93) 723 15 74</p>
+                <p class="number">+380 (96) 723 15 74</p>
+                <p class="number">+380 (68) 723 15 74</p>
+                <p class="number">+380 (93) 723 15 74</p>
             </div>
         </div>
     </footer>

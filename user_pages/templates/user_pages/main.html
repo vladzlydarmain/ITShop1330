@@ -1,6 +1,26 @@
 {% extends "base/base.html" %}
 
+{% load static %}
+<link rel="stylesheet" href="{% static 'css/style_main.css' %}">
 
 {% block content %}
-    <h1>Main page</h1>
+    <svg class="circles" width="1036" height="704" viewBox="0 0 1036 704" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="221" cy="221" r="221" transform="matrix(-1 0 0 1 290 -151)" fill="#BBA2F6"/>
+        <circle cx="185" cy="185" r="185" transform="matrix(-1 0 0 1 1166 275)" fill="#9974F1"/>
+        <circle cx="118.5" cy="118.5" r="118.5" transform="matrix(-1 0 0 1 862 17)" fill="#7845ED"/>
+        <circle cx="80" cy="80" r="80" transform="matrix(-1 0 0 1 495 -10)" fill="#4512BA"/>
+        <circle cx="81" cy="81" r="81" transform="matrix(-1 0 0 1 657 483)" fill="#7845ED"/>
+        <circle cx="89.5" cy="89.5" r="89.5" transform="matrix(-1 0 0 1 904 645)" fill="#330E8B"/>
+        <circle cx="118.5" cy="118.5" r="118.5" transform="matrix(-1 0 0 1 435 550)" fill="#BBA2F6"/>
+        <circle cx="70" cy="70" r="70" transform="matrix(-1 0 0 1 1072 -10)" fill="#7845ED"/>
+        <circle cx="110.5" cy="110.5" r="110.5" transform="matrix(-1 0 0 1 290 314)" fill="#4512BA"/>
+        <circle cx="90.5" cy="90.5" r="90.5" transform="matrix(-1 0 0 1 138 578)" fill="#9974F1"/>
+    </svg>
+    
+    
+    <button class="welcome-button">
+        <h1 class="welcome">Welcome to SHOP-IT</h1>
+    </button>
+    
+    <p class="mainpage-text">Here you can order website that you always wanted!</p>
 {% endblock %}

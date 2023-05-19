@@ -21,8 +21,9 @@ from cataloge.views import *
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('',show_main),
-    path('basket/', show_basket),
-    path('cataloge/', show_cataloge),
-    path('product_view/', show_product),
+    path('',show_main, name = 'main'),
+    path('basket/', show_basket, name= 'basket'),
+    path('cataloge/', show_cataloge, name = 'cataloge'),
+    path('product_view/', show_product, name= 'product_view'),
+    path('aboutus/', show_aboutus, name = 'aboutus')
 ]
